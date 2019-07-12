@@ -1,8 +1,42 @@
 body{
     margin: 0 auto;
 }
+
+.hero {
+    position: relative;
+    margin-bottom: 20px;
+}
+.hero img {
+    width: 100%
+}
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2em;
+}
+.hero h2 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,100%);
+    -webkit-transform: translate(-50%,100%);
+    transform: translate(-50%,100%);
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 1em;
+}
 .wrapper{
-    width: 1000px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -39,9 +73,38 @@ body{
     margin: 2px 0 0 0;
 }
 
+.card a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .card-red {
-    background: url(../girl1_resize.jpg) 20% 1%/cover no-repeat;
+    background: url(../img/red.jpg) bottom/cover no-repeat;
 }
 .card-red:hover .title {
     background-color: red;
+}
+.card-yellow {
+    background: url(../img/yellow.jpg) center/cover no-repeat;
+}
+.card-yellow:hover .title {
+    background-color: #D7A500;
+}
+.card-blue {
+    background: url(../img/blue.jpg) top/cover no-repeat;
+}
+.card-blue:hover .title {
+    background-color: #008AD7;
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        width: 100%;
+    }
 }
