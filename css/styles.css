@@ -35,6 +35,15 @@ body{
     color: #ffffff;
     font-size: 1em;
 }
+.hero #char_red {
+    color: #FD2857;
+}
+.hero #char_yellow {
+    color: #FFC40E;
+}
+.hero #char_blue {
+    color: #0099F7;
+}
 .wrapper{
     width: 1140px;
     margin: 0 auto;
