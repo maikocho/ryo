@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%
+}
+body {
+    height: 100%;
+}
+
 a,
 a:visited,
 a:hover,
@@ -161,4 +168,15 @@ a:active {
     height: 50px;
     padding: 15px;
     cursor: pointer;
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.footer p {
+    margin: 0;
 }
