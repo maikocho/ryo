@@ -180,3 +180,16 @@ a:active {
 .footer p {
     margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+    .fullscreenmenu .open,
+    .fullscreenmenu .open:before,
+    .fullscreenmenu .open:after {
+        background-color: rgba(0, 0, 0, 0.26);
+    }
+
+    .fullscreenmenu #menuToggle:checked ~ .hamburger .open:after,
+    .fullscreenmenu #menuToggle:checked ~ .hamburger .open:before {
+        background-color: rgba(0, 0, 0, 0.26);
+    }
+}
