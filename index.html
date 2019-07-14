@@ -7,13 +7,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/menu.css">
     </head>
     <body ontouchstart="">
-        <div class="hero">
-            <img src="img/hero_small.jpg" alt="">
-            <h1>RyoOgawa</h1>
-            <h2>Find the <span id="char_red">c</span>o<span id="char_yellow">l</span>o<span id="char_blue">r</span></h2>
-        </div>
+        <header>
+            <div class="hero">
+                <nav class="fullscreenmenu">
+                    <input type="checkbox" id="menuToggle" />
+                    <label for="menuToggle" class="hamburger">
+                        <div class="open"></div>
+                    </label>
+                    <div class="menu menuEffects">
+                        <label for="menuToggle"></label>
+                        <div class="menu_contents">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Preset</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <img src="img/hero.jpg" alt="">
+                <h1>RyoOgawa</h1>
+                <h2>Find the <span id="char_red">c</span>o<span id="char_yellow">l</span>o<span id="char_blue">r</span></h2>
+            </div>
+        </header>
         <section class="wrapper">
             <div class="container">
                 <div class="items">

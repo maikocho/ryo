@@ -33,10 +33,10 @@ body{
     margin: 0;
     padding: 0;
     color: #ffffff;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .hero #char_red {
-    color: #FD2857;
+    color: #C70A34;
 }
 .hero #char_yellow {
     color: #FFC40E;
@@ -114,6 +114,6 @@ body{
 
 @media screen and (max-width: 1200px) {
     .wrapper {
-        width: 100%;
+        width: 80%;
     }
 }
