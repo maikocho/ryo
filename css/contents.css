@@ -4,3 +4,16 @@
     margin: 0 auto;
     text-align: center;
 }
+#content_message {
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+@media screen and (max-width: 1000px) {
+    .all_container {
+        width: 100%;
+    }
+    .all_container iframe {
+        width: 100%;
+    }
+}
