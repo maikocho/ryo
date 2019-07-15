@@ -4,6 +4,15 @@
     margin: 0 auto;
     text-align: center;
 }
+body,
+.all_container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer {
+    margin-top: auto;
+}
 #content_message {
     font-size: 16px;
     font-weight: 200;
