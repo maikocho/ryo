@@ -206,14 +206,14 @@ a:active {
 }
 
 @media screen and (max-width: 900px) {
-    .fullscreenmenu .open,
-    .fullscreenmenu .open:before,
-    .fullscreenmenu .open:after {
+    .fullscreenmenu .menu_home,
+    .fullscreenmenu .menu_home:before,
+    .fullscreenmenu .menu_home:after {
         background-color: rgba(0, 0, 0, 0.26);
     }
 
-    .fullscreenmenu #menuToggle:checked ~ .hamburger .open:after,
-    .fullscreenmenu #menuToggle:checked ~ .hamburger .open:before {
+    .fullscreenmenu #menuToggle:checked ~ .hamburger .menu_home:after,
+    .fullscreenmenu #menuToggle:checked ~ .hamburger .menu_home:before {
         background-color: rgba(0, 0, 0, 0.26);
     }
 }

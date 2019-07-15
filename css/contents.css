@@ -9,11 +9,57 @@
     font-weight: 200;
     margin-bottom: 3px;
 }
-@media screen and (max-width: 1000px) {
+
+.gallery_container{
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+}
+.items {
+    margin: 5px 5px 20px 5px;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+}
+#card_portrait {
+    background: url(../img/hero.jpg) bottom/cover no-repeat;
+}
+#card_landscape {
+    background: url(../img/landscape.jpg) bottom/cover no-repeat;
+}
+#card_dailyscene {
+    background: url(../img/daily.jpg) bottom/cover no-repeat;
+}
+#card_client {
+    background: url(../img/client.jpg) bottom/cover no-repeat;
+}
+
+.gallery_container .items .card h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+}
+@media screen and (max-width: 700px) {
     .all_container {
         width: 100%;
     }
     .all_container iframe {
         width: 100%;
+    }
+    .gallery_container {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 80%);
     }
 }
