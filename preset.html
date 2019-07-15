@@ -2,13 +2,14 @@
 <html lang="ja" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>RyoOgawa-Contact-</title>
+        <title>RyoOgawa-Preset-</title>
         <meta name="description" content="写真家|Photographer|RyoOgawaのオフィシャルサイトです．ポートフォリオ，お仕事依頼，など．">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="stylesheet" href="./css/contents.css">
         <link rel="stylesheet" href="./css/menu.css">
         <link rel="stylesheet" href="./css/sns.css">
+        <link rel="stylesheet" href="./cocoen/dist/css/cocoen.min.css" />
     </head>
     <body ontouchstart="">
         <div class="all_container">
@@ -36,7 +37,34 @@
                 <div class="preset_container">
                     <div class="items">
                         <div class="card" id="card_portrait">
-
+                            <div class="cocoen">
+                                <img src="./img/girl_side_low_1.jpg" alt="">
+                                <img src="./img/girl_side_low.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="card" id="card_portrait">
+                            <div class="cocoen">
+                                <img src="./img/girl_side_low_1.jpg" alt="">
+                                <img src="./img/girl_side_low.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="card" id="card_portrait">
+                            <div class="cocoen">
+                                <img src="./img/girl_side_low_1.jpg" alt="">
+                                <img src="./img/girl_side_low.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="card" id="card_portrait">
+                            <div class="cocoen">
+                                <img src="./img/girl_side_low_1.jpg" alt="">
+                                <img src="./img/girl_side_low.jpg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -58,5 +86,16 @@
                 </div>
             </footer>
         </div>
-    </body>
+        <script type="text/javascript" src="./cocoen/dist/js/cocoen-jquery.min.js"></script>
+        <script type="text/javascript" src="./cocoen/dist/js/cocoen.min.js"></script>
+        <script type="text/javascript">
+        // new Cocoen(document.querySelector('.cocoen'));
+
+         document.querySelectorAll('.cocoen').forEach(function(element){
+           new Cocoen(element);
+         });
+
+        $('.cocoen').cocoen();
+    </script>
+</body>
 </html>
