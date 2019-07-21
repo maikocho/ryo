@@ -115,22 +115,22 @@ body{
     background: url(../img/yellow.jpg) center/cover no-repeat;
 }
 .card-yellow:hover .title {
-    background-color: #ffc475;
+    background-color: #f9d81f;
 }
 .card-blue {
     background: url(../img/blue.jpg) top/cover no-repeat;
 }
 .card-blue:hover .title {
-    background-color: #008AD7;
+    background-color: #0d66f9;
 }
 .card-green {
-    background: url(../img/blue.jpg) top/cover no-repeat;
+    background: url(../img/green.jpg) top/cover no-repeat;
 }
 .card-green:hover .title {
     background-color: #84bc7b;
 }
 .card-white {
-    background: url(../img/blue.jpg) top/cover no-repeat;
+    background: url(../img/white.jpg) top/cover no-repeat;
 }
 .card-white:hover .title {
     background-color: #ffffff;
@@ -139,7 +139,7 @@ body{
     color: #000000;
 }
 .card-black {
-    background: url(../img/blue.jpg) top/cover no-repeat;
+    background: url(../img/black.jpg) bottom/cover no-repeat;
 }
 .card-black:hover .title {
     background-color: #000000;
