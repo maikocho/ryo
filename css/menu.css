@@ -204,6 +204,12 @@ a:active {
 .footer p {
     margin: 0;
 }
+.footer_privacy {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.54);
+    margin: 5px 0;
+    text-align: center;
+}
 
 @media screen and (max-width: 900px) {
     .fullscreenmenu .menu_home,

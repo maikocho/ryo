@@ -79,17 +79,34 @@ footer {
 .preset_container .items {
     margin: 5px 5px 20px 5px;
 }
+.preset_container .items p {
+    margin-top: 5px;
+}
 
 .contents_description p {
     text-align: left;
     margin-top: 5px;
 }
-.contents_description .preset_title {
+.description_title {
     font-weight: bold;
     font-size: 1.2em;
     margin: 0;
 }
+.preset_price {
+    margin: 100px 0;
+}
+.preset_price p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
 
+.privacy_policy {
+    text-align: left;
+}
+.privacy_policy h2 {
+    text-align: center;
+    margin-top: 50px;
+}
 #caution {
     font-size: 0.8em;
     color: rgba(0, 0, 0, 0.7);
