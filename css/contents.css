@@ -79,9 +79,6 @@ footer {
 .preset_container .items {
     margin: 5px 5px 20px 5px;
 }
-.preset_container .items .card img {
-    min-height: 250px;
-}
 
 .contents_description p {
     text-align: left;
@@ -109,7 +106,7 @@ footer {
         grid-template-columns: repeat(1, 80%);
     }
     .preset_container {
-        grid-template-rows: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(1, 80%);
     }
 }
