@@ -74,11 +74,11 @@ a:active {
 }
 
 .fullscreenmenu .menu li a:hover {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .fullscreenmenu .menu li:hover {
-    background: yellow;
+    /* background: yellow; */
 }
 
 .fullscreenmenu .menuEffects {
