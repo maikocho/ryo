@@ -165,9 +165,9 @@ body{
         font-size: 1.5em;
     }
     .hero h2 {
-        /* -ms-transform: translate(-50%,120%);
-        -webkit-transform: translate(-50%,120%);
-        transform: translate(-50%,120%); */
+        -ms-transform: translate(-50%,70%);
+        -webkit-transform: translate(-50%,70%);
+        transform: translate(-50%,70%);
         font-size: 1em;
     }
 }`
