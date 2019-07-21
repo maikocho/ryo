@@ -115,7 +115,7 @@ body{
     background: url(../img/yellow.jpg) center/cover no-repeat;
 }
 .card-yellow:hover .title {
-    background-color: #D7A500;
+    background-color: #ffc475;
 }
 .card-blue {
     background: url(../img/blue.jpg) top/cover no-repeat;
