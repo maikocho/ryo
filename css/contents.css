@@ -1,6 +1,6 @@
 .all_container {
     position: relative;
-    width: 700px;
+    width: 800px;
     margin: 0 auto;
     text-align: center;
 }
@@ -78,6 +78,24 @@ footer {
 }
 .preset_container .items {
     margin: 5px 5px 20px 5px;
+}
+.preset_container .items .card img {
+    min-height: 250px;
+}
+
+.contents_description p {
+    text-align: left;
+    margin-top: 5px;
+}
+.contents_description .preset_title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#caution {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.7);
 }
 @media screen and (max-width: 700px) {
     .all_container {
