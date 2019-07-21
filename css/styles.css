@@ -158,4 +158,16 @@ body{
     .sp {
         display: block;
     }
+    .hero h1 {
+        /* -ms-transform: translate(-50%,-20%);
+        -webkit-transform: translate(-50%,-20%);
+        transform: translate(-50%,-20%); */
+        font-size: 1.5em;
+    }
+    .hero h2 {
+        /* -ms-transform: translate(-50%,120%);
+        -webkit-transform: translate(-50%,120%);
+        transform: translate(-50%,120%); */
+        font-size: 1em;
+    }
 }`
