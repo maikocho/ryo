@@ -123,6 +123,27 @@ body{
 .card-blue:hover .title {
     background-color: #008AD7;
 }
+.card-green {
+    background: url(../img/blue.jpg) top/cover no-repeat;
+}
+.card-green:hover .title {
+    background-color: #84bc7b;
+}
+.card-white {
+    background: url(../img/blue.jpg) top/cover no-repeat;
+}
+.card-white:hover .title {
+    background-color: #ffffff;
+}
+.card-white:hover .title h2{
+    color: #000000;
+}
+.card-black {
+    background: url(../img/blue.jpg) top/cover no-repeat;
+}
+.card-black:hover .title {
+    background-color: #000000;
+}
 
 @media screen and (max-width: 1200px) {
     .wrapper {
