@@ -103,10 +103,10 @@ footer {
     }
     .gallery_container {
         grid-template-rows: repeat(4, 1fr);
-        grid-template-columns: repeat(1, 80%);
+        grid-template-columns: repeat(1, 90%);
     }
     .preset_container {
         grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(1, 80%);
+        grid-template-columns: repeat(1, 90%);
     }
 }
