@@ -2,13 +2,6 @@ body{
     margin: 0 auto;
 }
 
-.cp {
-    display: block;
-}
-.sp {
-    display: none;
-}
-
 .all_container {
     height: 100%;
     width: 100%;
@@ -152,12 +145,6 @@ body{
 }
 
 @media screen and (max-width: 900px) {
-    .cp {
-        display: none;
-    }
-    .sp {
-        display: block;
-    }
     .hero h1 {
         /* -ms-transform: translate(-50%,-20%);
         -webkit-transform: translate(-50%,-20%);

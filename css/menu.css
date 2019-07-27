@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+.cp {
+    display: block;
+}
+.sp {
+    display: none;
+}
+
 html {
     height: 100%;
 }
@@ -221,5 +228,11 @@ a:active {
     .fullscreenmenu #menuToggle:checked ~ .hamburger .menu_home:after,
     .fullscreenmenu #menuToggle:checked ~ .hamburger .menu_home:before {
         background-color: rgba(0, 0, 0, 0.26);
+    }
+    .cp {
+        display: none;
+    }
+    .sp {
+        display: block;
     }
 }
