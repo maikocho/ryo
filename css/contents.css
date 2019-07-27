@@ -86,15 +86,16 @@ footer {
     grid-template-columns: repeat(2, 50%);
     justify-content: center;
 }
+.preset_container .nomargin {
+    margin: 5px;
+}
+.preset_container .items p {
+    display: inline-block;
+}
 .preset_container .items {
     margin: 5px 5px 20px 5px;
 }
-.preset_container .items p {
-    margin-top: 5px;
-}
-.preset_container_sp .items {
-    margin: 5px 5px 20px 5px;
-}
+
 .preset_container_sp .items p {
     margin-top: 5px;
 }
