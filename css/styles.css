@@ -99,31 +99,31 @@ body{
 }
 
 .card-red {
-    background: url(../img/red.jpg) bottom/cover no-repeat;
+    background: url(../img/colors/red.jpg) bottom/cover no-repeat;
 }
 .card-red:hover .title {
     background-color: red;
 }
 .card-yellow {
-    background: url(../img/yellow.jpg) center/cover no-repeat;
+    background: url(../img/colors/yellow.jpg) center/cover no-repeat;
 }
 .card-yellow:hover .title {
     background-color: #f9d81f;
 }
 .card-blue {
-    background: url(../img/blue.jpg) top/cover no-repeat;
+    background: url(../img/colors/blue.jpg) top/cover no-repeat;
 }
 .card-blue:hover .title {
     background-color: #0d66f9;
 }
 .card-green {
-    background: url(../img/green.jpg) top/cover no-repeat;
+    background: url(../img/colors/green.jpg) top/cover no-repeat;
 }
 .card-green:hover .title {
     background-color: #84bc7b;
 }
 .card-white {
-    background: url(../img/white.jpg) top/cover no-repeat;
+    background: url(../img/colors/white.jpg) top/cover no-repeat;
 }
 .card-white:hover .title {
     background-color: #ffffff;
@@ -132,7 +132,7 @@ body{
     color: #000000;
 }
 .card-black {
-    background: url(../img/black.jpg) bottom/cover no-repeat;
+    background: url(../img/colors/black.jpg) bottom/cover no-repeat;
 }
 .card-black:hover .title {
     background-color: #000000;
