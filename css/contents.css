@@ -45,13 +45,13 @@ footer {
     background: url(../img/gallery/portrait.jpg) bottom/cover no-repeat;
 }
 #card_landscape {
-    background: url(../img//gallery/landscape.jpg) bottom/cover no-repeat;
+    background: url(../img/gallery/landscape.jpg) bottom/cover no-repeat;
 }
 #card_dailyscene {
-    background: url(../img//gallery/dailyscene.jpg) bottom/cover no-repeat;
+    background: url(../img/gallery/dailyscene.jpg) bottom/cover no-repeat;
 }
 #card_client {
-    background: url(../img//gallery/client.jpg) bottom/cover no-repeat;
+    background: url(../img/gallery/client.jpg) bottom/cover no-repeat;
 }
 
 .gallery_container .items .card h2 {
