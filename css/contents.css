@@ -42,13 +42,13 @@ footer {
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.6);
 }
 #card_portrait {
-    background: url(../img/gallery/Portrait.jpg) bottom/cover no-repeat;
+    background: url(../img/gallery/portrait.jpg) bottom/cover no-repeat;
 }
 #card_landscape {
     background: url(../img//gallery/landscape.jpg) bottom/cover no-repeat;
 }
 #card_dailyscene {
-    background: url(../img//gallery/Dailyscene.jpg) bottom/cover no-repeat;
+    background: url(../img//gallery/dailyscene.jpg) bottom/cover no-repeat;
 }
 #card_client {
     background: url(../img//gallery/client.jpg) bottom/cover no-repeat;
