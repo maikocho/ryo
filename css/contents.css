@@ -80,6 +80,10 @@ footer {
     overflow: hidden;
 }
 
+#preset_title {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 .preset_container{
     display: grid;
     grid-template-rows: repeat(1, 100%);
